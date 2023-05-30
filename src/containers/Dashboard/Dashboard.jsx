@@ -4,11 +4,11 @@ import PrimaryLayout from "../../components/Layout";
 
 const Dashboard = () => {
   return (
-    <PrimaryLayout title="Dashboard Page">
+    // <PrimaryLayout title="Dashboard Page">
       <div>
         Dashboard Page
       </div>
-    </PrimaryLayout>
+    
   );
 };
 export default Dashboard;

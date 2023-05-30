@@ -13,10 +13,10 @@ function getItem(label, key, icon, children) {
   };
 }
 const items = [
-  getItem(<NavLink to="/home">Dashboard</NavLink>, '1', <PieChartOutlined />),
-  getItem('List', '2', <DesktopOutlined />),
+  getItem(<NavLink to="/dashboard">Dashboard</NavLink>, '1', <PieChartOutlined />),
+  getItem(<NavLink to="/about">About</NavLink>, '2', <DesktopOutlined />),
   getItem('User', 'sub1', <UserOutlined />, [
-  
+    getItem(<NavLink to="/user/add">Add User</NavLink>, '3', <UserOutlined />),
   ]),
   getItem('Team', 'sub2', <TeamOutlined />, [getItem('Team 1', '6'), getItem('Team 2', '8')]),
   getItem('Files', '9', <FileOutlined />),

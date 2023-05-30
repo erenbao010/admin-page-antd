@@ -46,7 +46,6 @@ const About = () => {
   const hasSelected = selectedRowKeys.length > 0;
 
   return (
-    <PrimaryLayout>
       <div>
         <div
           style={{
@@ -75,7 +74,7 @@ const About = () => {
           dataSource={data}
         />
       </div>
-    </PrimaryLayout>
+
   );
 };
 export default About;
